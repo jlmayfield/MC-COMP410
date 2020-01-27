@@ -1,0 +1,99 @@
+\documentclass[10pt]{article}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{makecell}
+
+\setlength{\textheight}{9in} \setlength{\topmargin}{-.5in}
+\setlength{\textwidth}{6.5in} \setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+
+\title{Syllabus \\ COMP 410 \\ Research in Computer Science}
+\author{  }
+\date{Spring 2019}
+
+\begin{document}
+\maketitle
+
+\section{Logistics}
+\begin{itemize}
+\item \textbf{Where: }
+\begin{itemize}
+\item Class: Center for Science and Business (CSB), Room 344
+\end{itemize}
+\item \textbf{When: } By Arrangement
+\item \textbf{Instructor: } James \textit{Logan} Mayfield
+\begin{itemize}
+\item \textit{Office: } Center for Science and Business (CSB), Room 344
+\item \textit{Phone: } 309-457-2200 % chktex 8
+\item \textit{Website: } \url{http://jlmayfield.github.io/}
+\item \textit{Email: } lmayfield \textit{at} monmouthcollege \textit{dot} edu
+\item \textit{Office Hours: }  See website and/or posting outside office.
+\end{itemize}
+\item \textbf{Credits: }  1/2 course credit
+\end{itemize}
+
+
+\section{Description and Content}
+
+We'll be exploring the usage and development of programming libraries for noisy, intermediate scale quantum computation (NISQ) and quantum computing in general. We'll focus our attention on how Google's CIRQ and OpenFermion open-source projects enable chemistry and physics researchers to carry out quantum simulations on NISQ devices and work towards making contributions to these projects. You will learn how to:
+\begin{itemize}
+  \item Write basic programs and libraries in Python
+  \item Maintain software projects using Git and Github
+  \item Participate in and contribute to open-source projects hosted on Github
+  \item Construct and simulate basic quantum circuits with CIRQ
+  \item Construct and simulate basic quantum simulations with OpenFermion and OpenFermion-CIRQ
+\end{itemize}
+
+\subsection{Textbooks and References}
+
+We will work with a variety of sources as we progress but the basis for this work comes from the following publications.
+
+\vspace{.05in}
+\noindent
+[1]Thomas Häner, Damian S. Steiger, Krysta Svore, and Matthias Troyer. 2018. A Software Methodology for Compiling Quantum Programs. Quantum Science and Technology 3, 2 (April 2018), 020501.
+
+\vspace{.05in}
+\noindent
+[2]Aram W. Harrow. 2012. Why now is the right time to study quantum computing. XRDS: Crossroads, The ACM Magazine for Students 18, 3 (March 2012), 32.
+
+\vspace{.05in}
+\noindent
+[3]Ian D. Kivlichan, Jarrod McClean, Nathan Wiebe, Craig Gidney, Alán Aspuru-Guzik, Garnet Kin-Lic Chan, and Ryan Babbush. 2018. Quantum Simulation of Electronic Structure with Linear Depth and Connectivity. Phys. Rev. Lett. 120, 11 (March 2018), 110501.
+
+\vspace{.05in}
+\noindent
+[4]Jarrod R. McClean, Ian D. Kivlichan, Kevin J. Sung, Damian S. Steiger, Yudong Cao, Chengyu Dai, E. Schuyler Fried, Craig Gidney, Brendan Gimby, Pranav Gokhale, Thomas Häner, Tarini Hardikar, Vojtěch Havlíček, Cupjin Huang, Josh Izaac, Zhang Jiang, Xinle Liu, Matthew Neeley, Thomas O’Brien, Isil Ozfidan, Maxwell D. Radin, Jhonathan Romero, Nicholas Rubin, Nicolas P. D. Sawaya, Kanav Setia, Sukin Sim, Mark Steudtner, Qiming Sun, Wei Sun, Fang Zhang, and Ryan Babbush. 2017. OpenFermion: The Electronic Structure Package for Quantum Computers. arXiv:1710.07629 [physics, physics:quant-ph] (October 2017). Retrieved August 22, 2018 from \url{http://arxiv.org/abs/1710.07629}
+
+\vspace{.05in}
+\noindent
+[5]P. J. J. O’Malley, R. Babbush, I. D. Kivlichan, J. Romero, J. R. McClean, R. Barends, J. Kelly, P. Roushan, A. Tranter, N. Ding, B. Campbell, Y. Chen, Z. Chen, B. Chiaro, A. Dunsworth, A. G. Fowler, E. Jeffrey, E. Lucero, A. Megrant, J. Y. Mutus, M. Neeley, C. Neill, C. Quintana, D. Sank, A. Vainsencher, J. Wenner, T. C. White, P. V. Coveney, P. J. Love, H. Neven, A. Aspuru-Guzik, and J. M. Martinis. 2016. Scalable Quantum Simulation of Molecular Energies. Phys. Rev. X 6, 3 (July 2016), 031007.
+
+\vspace{.05in}
+\noindent
+[6]John Preskill. 2018. Quantum Computing in the NISQ era and beyond. Quantum 2, (August 2018), 79.
+
+
+\section{Expectations and Policies}
+
+There will always be a regular one hour meeting where we look at your work and set objectives for the next week. We will, as needed, meet once more per week for 30 minutes for a quick progress check. You are expected to make each and every meeting or to make arrangements ahead of time to make up a missed meeting. At each meeting the you will present the current state of your work and demonstrate that you've made progress since the last meeting. \textit{You are encouraged to seek out help and guidance between meetings if you're stuck or lacking in direction}. At the end of each meeting we will set clear goals and objectives for the next week based on the current state of the work.  If you find that you cannot meet an objective in a reasonable amount of time due to unforeseen difficulty, that's fine. Just be ready to explain what you tried, what worked, what didn't work, and, to the best of your ability, the nature of the problem. Account for the time you spent on the research. The work you complete should be neatly done, well documented, and conform to the standards of the open source projects to which we hope to contribute.
+
+\section{Grades and Grading}
+
+Grades are a function of being prompt, prepared, and producing high quality work. These things are assessed at our weekly meetings through the work presented at each meeting. You can safely assume that no news is good news. If your making meetings and showing work at each meeting but not being told the work is somehow insufficient, then you can expect an A. When the work is insufficient or poorly done, then you will be told as much and given feed back on what is lacking and what needs improvement. At midterm you will be told your current grade. If at any other time you want a clear, explicit indication of your grade you need only ask. In general, grading follows the rubric given below.
+
+\begin{tabular}{cccc}
+\underline{Grade}  & \underline{Meeting Attendance} &  \underline{Weekly Work State} & \underline{Quality of Work} \\ \\
+A &  Never misses & Always ample work shown & Well done \\ \\
+B &  Missed a few & Work sometimes insufficient & Occasionally sloppy. Error free.  \\ \\
+C &  Missed a lot & \makecell{Regularly insufficient \\ occasionally not started} & \makecell{Occasionally sloppy. \\Frequent Errors.} \\ \\
+D &  Missed a lot & Regularly not started & Sloppy and error prone \\ \\
+F & Missed most & Nothing significant to show & Sloppy and full of errors. \\
+\end{tabular}
+
+\subsection{Course Workload Expectations}
+
+We will meet in my office for 1 to 2 hours each week at scheduled times. Outside of our meetings, you are expected to dedicate 3 to 5 hours of work on this research such that a total of 4-6 hours is spend on this class per week.
+
+\end{document}
